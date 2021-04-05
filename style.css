@@ -1,0 +1,26 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+  background-color: rgb(218,220,239);
+}
+
+.container {
+  width: 30vw;
+}
+
+.container > div {
+  border-radius: 8px;
+}
+
+input {
+  border-top: none;
+  border-right: none;
+  border-bottom: 2px solid rgb(235, 235, 235);
+  border-left: none;
+}
+
+input::placeholder {
+  color: rgb(139,143,147);
+}
